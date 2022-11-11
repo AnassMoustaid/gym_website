@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+#prices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Lato', sans-serif;
+    padding-top: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info  {
+  flex-wrap: wrap;
+}
+
+.info span{
+    font-size: 2rem;
+    color: red;
+}
+
+.info h3{
+    font-size: 4 rem;
+    padding-top: .5rem;
+    color: white;
+}
+
+.info p{
+    line-height: 2;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: whitesmoke;
+}
+
+
+.plan {
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.advanced{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(164,164,173,1) 35%);
+}
+
+.plan h3{
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: white;
+}
+
+.price{
+    font-size: 5rem;
+    font-weight: bolder ;
+    color: red ;
+}
+
+.price span{
+    color: white;
+    font-size: 2rem;
+}
+
+.price h3{
+    font-size: 4 rem;
+    padding-top: .5rem;
+    color: white;
+}
+
+.list {
+    padding: 1rem 0;
+}
+
+.list p{
+    line-height: 2;
+    padding: 0.25rem 0;
+    font-size: 1.4rem;
+    color: whitesmoke;
+}
