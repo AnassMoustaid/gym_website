@@ -1,18 +1,17 @@
-import React, {useState} from "react";
+import React from "react";
 import {NavLink} from "react-router-dom"
 import logo from '../Pictures/logo.png';
 
 function NavbarII() {
 
-    const [nav, setnav]= useState(false);
     return(
         <div>
-            <nav className={nav ? "nav active" : "nav"}>
+            <nav className="navII">
                 <NavLink to='/'>
                 <img src={logo} alt="" />
                 </NavLink>
 
-                <ul className="menu">
+                <ul className="">
                 <li><NavLink to='/login'>Login</NavLink></li>
                 </ul>
             </nav>

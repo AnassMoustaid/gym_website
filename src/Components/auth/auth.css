@@ -1,0 +1,129 @@
+#login, #admin-register {
+    width:100%;
+    height:100vh;
+    box-sizing: border-box;
+    font-family:'Lato';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.user-login{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.admin-login{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+
+
+input, textarea{
+    width:100%;
+    height:50px;
+    margin:5px 0px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #ffffff2d;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.login-btn {
+    width:100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: #eb4848;
+    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+    border-radius: 5px;
+	color:#ffffff;
+    overflow: auto;
+}
+
+.login-btn:hover{
+    background-color: #FF1414;
+}
+
+.mdp {
+    margin: 16px 0 0;
+    color:#ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.mdp:hover{
+    text-decoration: underline;
+}
+
+#admin_image {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.forgot_password, .reset_password{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.reset_password label{
+    color: white;
+    text-align: left;
+}
+
+.forgot_password input{
+    width: 40%;
+    height: 40px;
+    margin: 20px;
+}
+
+.reset_password input{
+    width: 25%;
+    height: 40px;
+    margin: 20px;
+}
+
+.forgot_password button, .reset_password button{
+    width:190px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #FF1414;
+    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+    border-radius: 5px;
+	color:#ffffff;
+}
+
+.forgot_password button:hover, .reset_password button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    transition: all ease 0.5s;
+    color: #ffffff;
+    border: 2px solid #FF1414;
+}

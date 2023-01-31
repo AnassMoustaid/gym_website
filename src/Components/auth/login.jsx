@@ -1,6 +1,7 @@
 import React from "react";
-import "./login.css";
+import "./auth.css";
 import aboutimage from '../../Pictures/about.png'
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -10,14 +11,14 @@ function Login() {
       </div>
 
       <div className="admin-login">
-        <h1>Admin Portal</h1>
+        <h1>User Portal</h1>
         <form action="">
           <input type="email" placeholder="Type Your E-mail" required />
           <input type="password" placeholder="Type Your Password" required />
           <a href="#" className="login-btn">
             LOGIN
           </a>
-          <a className="mdp" href="">Mot de passe oublié?</a>
+          <a className="mdp"><Link to='/forgotpassword'>  Mot de passe oublié? </Link></a>
         </form>
       </div>
     </div>
